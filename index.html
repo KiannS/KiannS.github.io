@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiann Skkandann</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dbb6d5d341.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Kiann - Name Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href=#header>Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science</p>
+                <h1>Hi, I'm <span>Kiann</span><br>Skkandann from Seattle</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an aspiring data scientist who enjoys connecting the dots: be it ideas from different disciplines, people from different teams, or applications from different industries. 
+                       I have strong technical skills and an academic background in engineering, computers, and machine learning. My passion lies in solving business problems with tailored 
+                       data and algorithms and communicating complex ideas to non-technical stakeholders. I am able to jump across verticals to deliver high-performing AI solutions.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('school')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Data Analysis</span><br>AI and ML models</li>
+                            <li><span>Sftware Development</span><br>Building complex solutions</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Seattle Software Developers: Internship</li>
+                            <li><span>2022-2023</span><br>BI - SCOPE: Apprentship</li>
+                            <li><span>June 2022 - September 2022</span><br>GCIDT: CyberSecurity Internship</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024-2027</span><br>University of Washington: Paul g. Allen school of Computer Science</li>
+                            <li><span>2022 - 2024</span><br>Bellevue College: Running Start & Phi Theta Kappa Honor Society</li>
+                            <li><span>2019-2022</span><br>Newport High School: 3.98 GPA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">What I Offer</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>Proficient in web design with a strong skill set in HTML, CSS, and JavaScript, enabling the creation of visually appealing and user-friendly websites. 
+                        Experienced in implementing responsive design principles, optimizing site performance, and incorporating modern design trends to deliver engaging online experiences</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Development</h2>
+                    <p>Skilled software developer with expertise in multiple programming languages including C#, Python, and JavaScript. 
+                        Proficient in software design, development, and troubleshooting, with hands-on experience in creating innovative solutions, 
+                        implementing industry best practices, and collaborating effectively in cross-functional teams to deliver high-quality software applications.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Experienced in data analysis with a robust proficiency in data manipulation, visualization, and interpretation using tools such as Microsoft Power BI, Python, SQL, and Google Data Analytics. 
+                        Proven ability to create insightful visual dashboards, extract actionable insights, and make data-driven recommendations for informed decision-making.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work 1 redone changed.png">
+                    <div class="layer">
+                        <h3>Data Analysis</h3>
+                        <p>Data Analysis dashboards built using Power BI and Looker studio</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work -2 redone.png">
+                    <div class="layer">
+                        <h3>App Development</h3>
+                        <p>Developed powerful apps using Google Appsheet and Android Studio</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work - 3 redone - changed.png">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Website Development in HTML/CSS/JS</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kiannskkandann@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>(469)-954-4811</p>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/kiann-skkandann-2b89a31a4"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume Updated September 2023.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email here" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Kiann, Made with <i class="fa-solid fa-heart"></i> by Kiann Skkandann</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+              for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+              }  
+
+              for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+              }  
+
+              event.currentTarget.classList.add("active-link");
+              document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
